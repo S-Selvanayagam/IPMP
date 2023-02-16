@@ -13,16 +13,11 @@ void iskset(int n, int k)
 
 int main()
 {
-    int n,int k;
+    int n, k;
     cin>>n;
     cin>>k;
-    iskset(n.k);
+    iskset(n,k);
     return 0;
 }
 
 // another implementation would be to bring x right shift for k-1 bits
-
-'''
-int x = n >> (k-1)
-now compare both x and 1 like before
-''' 
